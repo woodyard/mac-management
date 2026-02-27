@@ -5,7 +5,7 @@
 # Intended to run as root (e.g., via Intune shell script deployment).
 #
 
-set -euo pipefail
+set -u
 
 LOG_TAG="mac-maintenance"
 
