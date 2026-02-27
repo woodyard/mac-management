@@ -11,7 +11,7 @@ LOG_TAG="mac-maintenance"
 
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') [$LOG_TAG] $1"
-    logger -t "$LOG_TAG" "$1"
+    logger -t "$LOG_TAG" -- "$1"
 }
 
 # Require root
